@@ -1041,7 +1041,8 @@ img, .ylw-img-responsive {
 }
 .crumbs {
 	background-color: #f7f7f7;
-	border-bottom: 1px solid #ededed
+	border-bottom: 1px solid #ededed;
+	top:40px;
 }
 .breadcrumb {
 	padding: 18px 15px 20px 0;
@@ -1911,4 +1912,36 @@ img, .ylw-img-responsive {
 	height:auto;
 	float:left;
 	margin-top:1px
+}
+.mynav{
+	background-color: #fff;
+	width:100%;
+	font-size: 18px;
+	font-family: "微软雅黑", "Hiragino Sans GB", "Microsoft YaHei", tahoma, arial, simsun, "";
+}
+.mynav li{
+	background-color: rgba(225,225,225,0.9);
+	color:#000;
+	margin:2px;
+	font-family:"Microsoft YaHei"!important;
+}
+.mynav a:hover{
+	color:rgba(193,13,35,0.9);
+}
+.mynav li:hover{
+	color:rgba(0,0,0,0);
+}
+.mynav a{
+	background-color: rgba(225,225,225,0.9);
+	font-family:"Microsoft YaHei"!important;
+	color:#000;
+	text-decoration: none;
+}
+
+.blank{
+	clear:both;
+	overflow:hidden;
+	display:block;
+	overflow:hidden;
+	height:40px;
 }
