@@ -1906,7 +1906,7 @@ img, .ylw-img-responsive {
 	color:#FFF;
 	background-color: rgba(193,13,35,0.9);
 	bottom:0px;
-	position:fixed;
+	position:relative;
 	width:100%;
 	text-align:center;
 	height:auto;
